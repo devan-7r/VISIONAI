@@ -187,56 +187,36 @@ http://localhost:3001
 ---
 
 # 📷 Screenshots
-   <img width="1917" height="942" alt="image" src="https://github.com/user-attachments/assets/3ca74fed-f189-4e10-87be-07c081b74c30" />
+   
   
 ## 🏠 Home Page
 
-> *(Add Screenshot Here)*
+
 > 
   <img width="1919" height="898" alt="image" src="https://github.com/user-attachments/assets/b3a87d05-fd7a-4150-8aee-e26069314da4" />
   
 
-```
-screenshots/home.png
-```
 
 ---
 
 ## 📷 Live Object Detection
 
-> *(Add Screenshot Here)*
-> 
+
   <img width="1897" height="885" alt="image" src="https://github.com/user-attachments/assets/c88a2179-5014-4cc1-a9ed-05386176925a" />
 
-```
-screenshots/live-detection.png
-```
 
 ---
 
 ## 🖼️ Image Detection
 
-> *(Add Screenshot Here)*
+
 
 <img width="1919" height="893" alt="Screenshot 2026-07-30 211606" src="https://github.com/user-attachments/assets/546074cb-7ff9-4dc3-b487-8a2f7f2b7690" />
 
 
-screenshots/image-detection.png
-```
 
 ---
 
-
-## 🎯 Mystery Challenge
-
-> *(Add Screenshot Here)*
- "C:\Users\devan\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 211656.png"
-
-
-screenshots/mystery-challenge.png
-```
-
----
 
 
 
