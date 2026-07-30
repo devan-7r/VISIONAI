@@ -217,7 +217,8 @@ screenshots/live-detection.png
 
 > *(Add Screenshot Here)*
 
-```<img width="1919" height="893" alt="image" src="https://github.com/user-attachments/assets/f1262a1b-d167-45e0-a91e-a884cae9e64d" />
+<img width="1919" height="893" alt="Screenshot 2026-07-30 211606" src="https://github.com/user-attachments/assets/546074cb-7ff9-4dc3-b487-8a2f7f2b7690" />
+
 
 screenshots/image-detection.png
 ```
@@ -238,7 +239,7 @@ screenshots/video-detection.png
 ## 🎯 Mystery Challenge
 
 > *(Add Screenshot Here)*
-<img width="1916" height="907" alt="image" src="https://github.com/user-attachments/assets/ec2f5c24-da5d-483c-b31b-7d7c414f0ff7" />
+ "C:\Users\devan\OneDrive\Pictures\Screenshots\Screenshot 2026-07-30 211656.png"
 
 
 screenshots/mystery-challenge.png
