@@ -1,6 +1,7 @@
 # 🚀 VisionAI - AI Powered Object Detection Web Application
 
-![VisionAI Banner](screenshots/banner.png)
+<img width="1881" height="893" alt="image" src="https://github.com/user-attachments/assets/90a5924a-6e1a-41ad-a1a5-afb885e33167" />
+
 
 VisionAI is a modern AI-powered Object Detection Web Application built using **React**, **Flask**, and **YOLOv8**. It allows users to perform real-time object detection through live camera feeds, uploaded images, and videos using an intuitive and professional interface.
 
@@ -225,16 +226,6 @@ screenshots/image-detection.png
 
 ---
 
-## 🎥 Video Detection
-
-> *(Add Screenshot Here)*
-
-```<img width="1913" height="908" alt="image" src="https://github.com/user-attachments/assets/c56c82a7-913f-4df9-b06f-9df4db69be6d" />
-
-screenshots/video-detection.png
-```
-
----
 
 ## 🎯 Mystery Challenge
 
