@@ -1,0 +1,280 @@
+PROJECT NAME
+
+VisionAI Backend
+
+=====================================================
+
+OBJECTIVE
+
+Build a production-ready backend for the VisionAI Object Detection Web Application.
+
+The backend should integrate seamlessly with a React + Vite frontend.
+
+Tech Stack
+
+Python
+
+Flask
+
+Ultralytics YOLO11 (or latest stable YOLO)
+
+OpenCV
+
+NumPy
+
+Pillow
+
+Flask-CORS
+
+Flask-SocketIO (for live detection)
+
+SQLite (development)
+
+=====================================================
+
+PROJECT STRUCTURE
+
+backend/
+
+│
+
+├── app.py
+
+├── config.py
+
+├── requirements.txt
+
+├── routes/
+
+│ ├── image.py
+
+│ ├── video.py
+
+│ ├── live.py
+
+│ ├── history.py
+
+│ ├── mystery.py
+
+│ └── stats.py
+
+│
+
+├── services/
+
+│ ├── yolo_service.py
+
+│ ├── image_service.py
+
+│ ├── video_service.py
+
+│ ├── camera_service.py
+
+│ └── history_service.py
+
+│
+
+├── models/
+
+├── database/
+
+├── uploads/
+
+├── outputs/
+
+├── utils/
+
+└── static/
+
+=====================================================
+
+FEATURES
+
+1.
+
+Live Object Detection
+
+Receive webcam frames
+
+Run YOLO detection
+
+Return
+
+Objects
+
+Confidence
+
+Bounding Boxes
+
+Processing Time
+
+FPS
+
+=====================================================
+
+2.
+
+Image Detection
+
+Accept
+
+PNG
+
+JPG
+
+JPEG
+
+WEBP
+
+Return
+
+Detected Objects
+
+Confidence
+
+Bounding Boxes
+
+Processing Time
+
+Object Count
+
+Image Size
+
+=====================================================
+
+3.
+
+Video Detection
+
+Accept
+
+MP4
+
+AVI
+
+MOV
+
+MKV
+
+Process frame by frame
+
+Return
+
+Detections
+
+Progress
+
+Summary
+
+=====================================================
+
+4.
+
+Detection History
+
+Store
+
+Date
+
+Time
+
+Image Name
+
+Video Name
+
+Detection Type
+
+Objects
+
+Confidence
+
+Processing Time
+
+=====================================================
+
+5.
+
+Statistics
+
+Today's Detections
+
+Images Processed
+
+Videos Processed
+
+Objects Detected
+
+Average Confidence
+
+=====================================================
+
+6.
+
+Mystery Challenge
+
+Generate random target object
+
+Verify detected object
+
+Maintain score
+
+Leaderboard
+
+=====================================================
+
+REST APIs
+
+GET /
+
+GET /health
+
+POST /detect/image
+
+POST /detect/video
+
+POST /detect/live
+
+GET /history
+
+DELETE /history
+
+GET /statistics
+
+GET /challenge
+
+POST /challenge/start
+
+POST /challenge/verify
+
+=====================================================
+
+Return JSON in this format
+
+{
+"success": true,
+"objects":[
+{
+"name":"person",
+"confidence":98.5,
+"bbox":[120,40,350,480]
+}
+],
+"processing_time":"34 ms",
+"object_count":1
+}
+
+=====================================================
+
+Enable CORS for React frontend.
+
+Code should be modular.
+
+Do not hardcode object names.
+
+Use real YOLO inference.
+
+Include error handling.
+
+Generate requirements.txt.
+
+Provide README with installation instructions.

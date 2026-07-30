@@ -1,0 +1,515 @@
+PROJECT NAME
+
+VisionAI
+
+====================================================
+
+OBJECTIVE
+
+Build a completely new frontend for VisionAI from scratch.
+
+Do NOT reuse any previous code or UI.
+
+This is NOT a presentation website.
+
+This is a professional AI web application.
+
+The UI should feel like premium desktop software similar to ChatGPT, Adobe Lightroom, Figma or DaVinci Resolve.
+
+====================================================
+
+TECH STACK
+
+React
+
+Vite
+
+Tailwind CSS
+
+Framer Motion
+
+React Router
+
+Lucide Icons
+
+(Optional) React Three Fiber / Three.js only for the intro animation.
+
+====================================================
+
+NO LOGIN
+
+Do NOT create
+
+Login
+
+Signup
+
+Forgot Password
+
+Authentication
+
+Payment
+
+The website should open directly.
+
+====================================================
+
+INTRO ANIMATION
+
+Before opening the dashboard, show a premium cinematic intro.
+
+Duration
+
+2–3 seconds.
+
+The intro should NOT be black.
+
+Scene
+
+A realistic DSLR camera placed beside a night road.
+
+The road should be inspired by cinematic photography.
+
+Environment
+
+Night sky
+
+Moon
+
+Trees
+
+Street lights
+
+Wet asphalt reflections
+
+Slight fog
+
+Warm orange street lights
+
+Blue moonlight
+
+The DSLR camera must be
+
+Centered
+
+Clearly visible
+
+Professional
+
+Realistic
+
+Not cartoonish
+
+The camera should perform
+
+Lens focus
+
+Lens rotation
+
+Autofocus
+
+Small camera movement
+
+Realistic shutter click
+
+Camera flash
+
+After taking the photo,
+
+DO NOT zoom the camera.
+
+Instead,
+
+the camera lens becomes a portal.
+
+The dashboard appears from inside the camera lens.
+
+Smooth transition.
+
+Provide
+
+Skip Intro
+
+Replay Intro
+
+====================================================
+
+MAIN DASHBOARD
+
+Professional AI desktop layout.
+
+Top Navigation
+
+VisionAI logo
+
+Home
+
+History
+
+About
+
+Settings
+
+GitHub
+
+Theme Toggle
+
+====================================================
+
+BACKGROUND
+
+Use a realistic premium night-road theme.
+
+The background should include
+
+Road
+
+Moon
+
+Trees
+
+Street lights
+
+Soft fog
+
+Wet asphalt
+
+Bokeh lights
+
+Very subtle blur
+
+Dark cinematic atmosphere
+
+Readable text
+
+Do NOT use abstract gradients.
+
+====================================================
+
+HOME PAGE
+
+Display four premium cards.
+
+1
+
+Live Object Detection
+
+2
+
+Image Detection
+
+3
+
+Video Detection
+
+4
+
+Mystery Challenge
+
+Each card contains
+
+Image
+
+Title
+
+Description
+
+Action Button
+
+Hover Animation
+
+====================================================
+
+WHEN A CARD IS CLICKED
+
+Do NOT navigate to another page.
+
+Open a dedicated workspace below the cards.
+
+Allow normal scrolling.
+
+The user should scroll naturally to reach the workspace.
+
+Do NOT compress everything into one screen.
+
+Avoid endless scrolling.
+
+====================================================
+
+LIVE DETECTION
+
+Large camera preview.
+
+Controls
+
+Start Camera
+
+Stop Camera
+
+Pause
+
+Resume
+
+Capture Image
+
+Fullscreen
+
+Camera Status
+
+FPS
+
+Detection Status
+
+Bounding Boxes
+
+Detected Objects
+
+Confidence
+
+====================================================
+
+IMAGE DETECTION
+
+Large drag-and-drop upload area.
+
+Buttons
+
+Upload Image
+
+Browse Image
+
+Detect Objects
+
+Remove Image
+
+Reset
+
+Preview image.
+
+Bounding boxes.
+
+Confidence.
+
+Processing Time.
+
+====================================================
+
+VIDEO DETECTION
+
+Video Preview.
+
+Buttons
+
+Upload Video
+
+Start Detection
+
+Pause
+
+Resume
+
+Stop
+
+Replay
+
+Progress Bar
+
+Frame Counter
+
+Detection Results
+
+====================================================
+
+MYSTERY CHALLENGE
+
+Start Challenge
+
+Stop Challenge
+
+Restart Challenge
+
+Live Camera
+
+Current Object
+
+Timer
+
+Score
+
+Leaderboard
+
+Achievements
+
+====================================================
+
+RIGHT PANEL
+
+Always visible.
+
+Detection Results
+
+Detected Objects
+
+Confidence
+
+Processing Time
+
+Object Count
+
+Bounding Boxes
+
+Estimated Length
+
+Estimated Width
+
+Estimated Height
+
+If unavailable,
+
+display
+
+Not Available
+
+without clipping text.
+
+====================================================
+
+HISTORY
+
+Store
+
+Thumbnail
+
+Date
+
+Time
+
+Detection Type
+
+Object Name
+
+Confidence
+
+Processing Time
+
+Search
+
+Filter
+
+====================================================
+
+NOTIFICATIONS
+
+Whenever the user performs an action,
+
+show beautiful toast notifications.
+
+Examples
+
+Camera Started
+
+Camera Stopped
+
+Image Uploaded
+
+Video Uploaded
+
+Detection Complete
+
+History Saved
+
+====================================================
+
+ANIMATIONS
+
+Smooth hover.
+
+Glass effects.
+
+Soft shadows.
+
+Modern transitions.
+
+Cards lift slightly on hover.
+
+Buttons ripple.
+
+Do NOT overuse animations.
+
+====================================================
+
+SCROLLING
+
+Allow normal scrolling.
+
+The workspace should be below the cards.
+
+The user should scroll naturally.
+
+Do NOT force everything into one viewport.
+
+Do NOT create endless scrolling.
+
+====================================================
+
+RESPONSIVE
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+====================================================
+
+CODE QUALITY
+
+Reusable React components.
+
+Clean folder structure.
+
+Well-organized code.
+
+Production-ready architecture.
+
+====================================================
+
+BACKEND READY
+
+The frontend must be ready to connect with Flask + YOLO.
+
+Support APIs for
+
+Live Detection
+
+Image Detection
+
+Video Detection
+
+History
+
+Statistics
+
+Mystery Challenge
+
+Do NOT use fake data after backend integration.
+
+====================================================
+
+FINAL GOAL
+
+Create a premium AI object detection application.
+
+The application should feel like a professional computer vision studio.
+
+The intro should leave a strong first impression.
+
+The dashboard should be clean, elegant, and highly usable.
+
+Every operation button should always be accessible.
+
+No feature should be hidden.
+
+The application should look polished, modern, and hackathon-ready.

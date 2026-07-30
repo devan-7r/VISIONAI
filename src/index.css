@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-dark: #06090e;
+    --panel-dark: rgba(13, 19, 31, 0.75);
+    --border-dark: rgba(255, 255, 255, 0.08);
+  }
+
+  body {
+    background-color: var(--bg-dark);
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Glassmorphism Styles */
+.glass-panel {
+  background: rgba(11, 17, 27, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+.glass-panel-interactive {
+  background: rgba(15, 23, 38, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel-interactive:hover {
+  background: rgba(22, 33, 54, 0.85);
+  border-color: rgba(45, 212, 191, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px -10px rgba(45, 212, 191, 0.2);
+}
+
+.glow-amber {
+  box-shadow: 0 0 20px -3px rgba(245, 158, 11, 0.5);
+}
+
+.glow-teal {
+  box-shadow: 0 0 20px -3px rgba(45, 212, 191, 0.5);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #06090e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d9488;
+}
+
+/* Camera Lens Reflection & Flash */
+@keyframes flashAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+    background: #ffffff;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.camera-flash-overlay {
+  animation: flashAnimation 0.6s ease-out forwards;
+}
